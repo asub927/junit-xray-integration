@@ -1,0 +1,15 @@
+{
+    "reporterEnabled": "mocha-junit-reporter, mochawesome",
+    "mochaJunitReporterReporterOptions":{
+        "mochaFile": "reports/junit/results-[hash].xml"
+    },
+    "mochawesomeReporterOptions": {
+        "reportFilename": "swapi-automation-report",
+        "reportDir": "reports/mochawesome",
+        "reportPageTitle": "swapi-automation",
+        "reportTitle": "swapi-automation-report",
+        "charts": true,
+        "code": false,
+        "inline": true
+    }
+}
