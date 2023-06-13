@@ -11,7 +11,7 @@ describe('swapi api suite', function() {
     })
 
     it('Invoke people api', async function() {
-        this.testCaseMetaData = await testCaseInfo('JIRA-1', this.test.title)
+        this.testCaseMetadata = await testCaseInfo('JIRA-1', this.test.title)
 
         await _spec
         .get('/api/people').expectStatus(200)
